@@ -43,9 +43,9 @@ module.exports = () => {
                     content: "PORT=42111"
                 },
                 {
-                    name: ".gitignore",
+                    name: "template.gitignore",
                     path: [""],
-                    content: fs.readFileSync(__dirname + "\\template\\.gitignore").toString()
+                    content: fs.readFileSync(__dirname + "\\template\\template.gitignore").toString()
                 },
                 {
                     name: "app.js",
